@@ -27,7 +27,8 @@ class School
   end
   
   def sort 
-    @roster.collect do |key, value|
+    sorted_hash = {}
+    @roster.each do |key, value|
       puts "key is #{key}"
       puts "before #{value} "
       
