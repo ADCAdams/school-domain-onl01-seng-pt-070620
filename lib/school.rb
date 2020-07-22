@@ -36,7 +36,7 @@ class School
       
       
       value = value.sort
-      sorted_hash[:key] = value
+      sorted_hash[key] = value
       
       
       #puts "after  #{value} "
