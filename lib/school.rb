@@ -29,18 +29,12 @@ class School
   def sort 
     sorted_hash = {}
     @roster.each do |key, value|
-      
-      #puts "key is #{key}"
-      #puts "before #{value} "
-      
-      
+
       
       value = value.sort
       sorted_hash[key] = value
       
-      
-      #puts "after  #{value} "
-    end           #ends each
+      end           #ends each
   sorted_hash
   end
 end #ends class
