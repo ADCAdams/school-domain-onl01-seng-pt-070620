@@ -36,11 +36,11 @@ class School
       
       
       value = value.sort
-      
+      sorted_hash[:key] = value
       
       
       #puts "after  #{value} "
     end           #ends each
-  @roster
+  sorted_hash
   end
 end #ends class
